@@ -88,6 +88,8 @@ button {
     flex-direction: row;
     gap: 16px;
     height: 57px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #horizontalButtonGroup button {
