@@ -1,0 +1,27 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="index.css">
+    </head>
+        <body>
+            <div id="container">
+                <div id="overlay">
+                    <h4>Train Tracker ©</h4>
+                    <h1>People entered</h1>
+                    <h2 id="count-el">0</h2>
+                        <div id="verticalButtonGroup">
+                            <div id="horizontalButtonGroup">
+                                <button id="increment-btn" onclick="increment()">INCREMENT</button>
+                                <button id="save-btn" onclick="save()">SAVE</button>
+                            </div>
+                            <div id="resetGroup">
+                                <p>Done working for the day?</p>
+                                <button id="reset-btn" onclick="reset()">RESET</button>
+                            </div>
+                        </div>
+                    <p id="save-el" class="truncate">Previous entries: </p>
+                    <script src="index.js">
+                    </script>
+                </div>
+            </div>
+        </body>
+</html>
